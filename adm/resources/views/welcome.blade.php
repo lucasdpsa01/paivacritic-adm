@@ -1,4 +1,4 @@
-@extends('layoout.app')
+@extends('layout.app')
 
 @section('form')
 <form method="POST" enctype="multipart/form-data">

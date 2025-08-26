@@ -8,8 +8,8 @@
         <input type="text" class="form-control" id="inputName">
     </div>
     <div id="mb-3">
-        <label for="inputImage" class="form-label">Imagem</label>
-        <input type="file" name="foto" accept="image/*">
+        <label for="formFile" class="form-label">Imagem</label>
+        <input class="form-control" type="file" name="foto" id="formFile">
     </div>
     <div id="mb-3">
         <select class="form-select" aria-label="Default select example">

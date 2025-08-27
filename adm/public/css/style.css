@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(255, 255, 255);
+
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 0.2fr 2.7fr 0.2fr;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer"
+    ;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    grid-area: header;
+}
+main{
+    grid-area: main;
+}
+form{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+#btn {
+    width: 15%;
+}
+
+#divForm {
+    width: 30%;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+
+    grid-area: footer;
+}

@@ -9,16 +9,18 @@
     <link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600" rel="stylesheet" />
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
-
 <body>
     <header>
-        <h1>paivacritic Admin</h1>
+        <img src="/img/engrenagem.png" alt="engrenagem-icon" height="40">
+        <h1>paivacritic admin</h1>
     </header>
     <main>@yield('form')</main>
     <footer>
-
+        &copy;
+        <p>2025</p>
+        <p>paivacritic adm</p>
     </footer>
 </body>
-
 </html>

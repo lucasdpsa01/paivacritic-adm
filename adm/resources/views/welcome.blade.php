@@ -20,7 +20,7 @@
             <option value="3">Em breve</option>
         </select>
     </div>
-    <div class="mb-3" id="divForm">
+    <div class="mb-3" id="divForm"> 
         <label class="form-label">Qual é sua nota?</label>
         <select class="form-select" aria-label="Default select example">
             <option selected>Selecione o status</option>

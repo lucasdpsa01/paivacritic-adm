@@ -18,7 +18,7 @@
     </header>
     <main>@yield('form')</main>
     <footer>
-        &copy;
+        &copy; 
         <p>2025</p>
         <p>paivacritic adm</p>
     </footer>

@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 export default function Main() {
 
     return (
-        <form onSubmit={handleSubmit}>
+        <form>
             <input
             className='form-control form-control-sm'
             aria-label=".form-control-sm example"

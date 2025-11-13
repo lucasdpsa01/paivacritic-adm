@@ -76,7 +76,7 @@ export default function Main() {
                 type="number" 
                 onChange={(e) => setNota(e.target.value)}
                 value={nota}
-                min={1}
+                min={0}
                 max={100}
                 />
 

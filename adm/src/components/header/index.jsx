@@ -5,7 +5,7 @@ export default function Header() {
         <header>
             <h1>paivacritic-adm</h1>
             <div className="header-link">
-                <a>paivacritc</a>
+                <a href="https://paivacritic.netlify.app/">paivacritc</a>
             </div>
         </header>
     )
